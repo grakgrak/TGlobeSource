@@ -1,0 +1,82 @@
+package TGlobe5_D6;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'TGlobe 5 Component'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vcljpg;
+
+contains
+  GBitmap in 'GBitmap.pas',
+  GClasses in 'GClasses.pas',
+  GConversions in 'GConversions.pas',
+  GCSVReader in 'GCSVReader.pas',
+  GDataLink in 'GDataLink.pas',
+  GDataReaders in 'GDataReaders.pas',
+  GDataWriters in 'GDataWriters.pas',
+  GDBFReader in 'GDBFReader.pas',
+  GE00Reader in 'GE00Reader.pas',
+  GGraticule in 'GGraticule.pas',
+  GLabelRenderer in 'GLabelRenderer.pas',
+  GLayerTreeView in 'GLayerTreeView.pas',
+  Globe5 in 'Globe5.pas',
+  Globe5Utils in 'Globe5Utils.pas',
+  GLogging in 'GLogging.pas',
+  GLR5Reader in 'GLR5Reader.pas',
+  GLR5Writer in 'GLR5Writer.pas',
+  GLYRReader in 'GLYRReader.pas',
+  GLYRWriter in 'GLYRWriter.pas',
+  GMapObjects in 'GMapObjects.pas',
+  GMapObjectEditors in 'GMapObjectEditors.pas',
+  GMemObjectSource in 'GMemObjectSource.pas',
+  GMIFReader in 'GMIFReader.pas',
+  GMorphing in 'GMorphing.pas',
+  GPresenters in 'GPresenters.pas',
+  GProjections in 'GProjections.pas',
+  GRenderer in 'GRenderer.pas',
+  GResource in 'GResource.pas',
+  GRoadPresenter in 'GRoadPresenter.pas',
+  GSDBBTree in 'GSDBBTree.pas',
+  GSDBCache in 'GSDBCache.pas',
+  GSDBCrypt in 'GSDBCrypt.pas',
+  GSDBDataLink in 'GSDBDataLink.pas',
+  GSDBIndex in 'GSDBIndex.pas',
+  GSDBKeyIndex in 'GSDBKeyIndex.pas',
+  GSDBLayers in 'GSDBLayers.pas',
+  GSDBObjectSource in 'GSDBObjectSource.pas',
+  GSDBRtree in 'GSDBRtree.pas',
+  GSDBTables in 'GSDBTables.pas',
+  GSHPReader in 'GSHPReader.pas',
+  GSpatialDatabase in 'GSpatialDatabase.pas',
+  GSysUtils in 'GSysUtils.pas',
+  GTextReader in 'GTextReader.pas',
+  GWindBarbPresenter in 'GWindBarbPresenter.pas',
+  GXML in 'GXML.pas',
+  GImageTileCache in 'GImageTileCache.pas',
+  Globe5GPS in 'GPS\Globe5GPS.pas';
+
+end.

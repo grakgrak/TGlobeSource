@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value=".\TGlobe5_CB5.bpl"/>
+    <OBJFILES value="\GBitmap.obj \GClasses.obj \GConversions.obj \GCSVReader.obj 
+      \GDataLink.obj \GDataReaders.obj \GDataWriters.obj \GDBFReader.obj 
+      \GE00Reader.obj \GGraticule.obj \GLabelRenderer.obj \Globe5.obj 
+      \Globe5Utils.obj \GLogging.obj \GLR5Reader.obj \GLR5Writer.obj 
+      \GLYRReader.obj \GLYRWriter.obj \GMapObjectEditors.obj \GMapObjects.obj 
+      \GMemObjectSource.obj \GMIFReader.obj \GMorphing.obj \GPresenters.obj 
+      \GProjections.obj \GRenderer.obj \GResource.obj \GRoadPresenter.obj 
+      \GSDBCache.obj \GSDBBTree.obj \GSDBCrypt.obj \GSDBDataLink.obj 
+      \GSDBIndex.obj \GSDBKeyIndex.obj \GSDBLayers.obj \GSDBObjectSource.obj 
+      \GSDBRTree.obj \GSDBTables.obj \GSHPReader.obj \GSmoothPolyPresenter.obj 
+      \GSpatialDatabase.obj \GSysUtils.obj \GTextReader.obj \GWindBarbPresenter.obj 
+      \GXML.obj \TGlobe5_CB5.obj"/>
+    <RESFILES value="TGlobe5_CB5.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="Vcl50.lib"/>
+    <PACKAGES value="vcl50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;..\Source"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="TGlobe5_CB5.cpp"/>
+    <INCLUDEPATH value="..\Source;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\Source;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\Source -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-l&quot;T:\TGlobe\Globe5\Packages\&quot; -D&quot;&quot; -aa -Tpp -x -Gn -Gl -Gi"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=5
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2057
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=5.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=5.0.0.0
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=..\Source;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=..\Source;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=.\
+
+[HistoryLists\hlFinalOutputDir]
+Count=1
+Item0=.\
+
+[HistoryLists\hIBPIOutputDir]
+Count=2
+Item0=.\
+Item1=T:\TGlobe\Globe5\Packages\
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="TGlobe5_CB6.bpl"/>
+    <OBJFILES value="TGlobe5_CB6.obj GXML.obj GBitmap.obj GClasses.obj GConversions.obj 
+      GCSVReader.obj GDataLink.obj GDataReaders.obj GDataWriters.obj 
+      GDBFReader.obj GE00Reader.obj GFWVReader.obj GGraticule.obj 
+      GLabelRenderer.obj GLayerTreeView.obj Globe5.obj Globe5Projections.obj 
+      Globe5Utils.obj GLogging.obj GLR5Reader.obj GLR5Writer.obj GLYRReader.obj 
+      GLYRWriter.obj GMapObjectEditors.obj GMapObjects.obj GMemObjectSource.obj 
+      GMIFReader.obj GMorphing.obj GPresenters.obj GProjections.obj 
+      GRenderer.obj GResource.obj GRoadPresenter.obj GSDBBTree.obj GSDBCache.obj 
+      GSDBCrypt.obj GSDBDataLink.obj GSDBIndex.obj GSDBKeyIndex.obj 
+      GSDBLayers.obj GSDBObjectSource.obj GSDBRtree.obj GSDBTables.obj 
+      GSHPReader.obj GSmoothPolyPresenter.obj GSpatialDatabase.obj GSysUtils.obj 
+      GTextReader.obj GWindBarbPresenter.obj"/>
+    <RESFILES value="TGlobe5_CB6.res ..\Source\Globe5.dcr ..\Source\GSpatialDatabase.dcr"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="rtl.lib"/>
+    <PACKAGES value="rtl.bpi designide.bpi vcl.bpi bcbsmp.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source;..\Source"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="TGlobe5_CB6.cpp"/>
+    <INCLUDEPATH value="..\Source;.;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\Source;.;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tWM"/>
+    <PFLAGS value="-N2..\Packages -N0..\Packages -$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-I..\Packages -D&quot;&quot; -aa -Tpp -x -Gn -Gl -Gi -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="TGlobe5_CB6.res" FORMNAME="" UNITNAME="TGlobe5_CB6.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TGlobe5_CB6.cpp" FORMNAME="" UNITNAME="TGlobe5_CB6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GXML.pas" FORMNAME="" UNITNAME="GXML" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GBitmap.pas" FORMNAME="" UNITNAME="GBitmap" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GClasses.pas" FORMNAME="" UNITNAME="GClasses" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GConversions.pas" FORMNAME="" UNITNAME="GConversions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GCSVReader.pas" FORMNAME="" UNITNAME="GCSVReader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GDataLink.pas" FORMNAME="" UNITNAME="GDataLink" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GDataReaders.pas" FORMNAME="" UNITNAME="GDataReaders" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GDataWriters.pas" FORMNAME="" UNITNAME="GDataWriters" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GDBFReader.pas" FORMNAME="" UNITNAME="GDBFReader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GE00Reader.pas" FORMNAME="" UNITNAME="GE00Reader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GFWVReader.pas" FORMNAME="" UNITNAME="GFWVReader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GGraticule.pas" FORMNAME="" UNITNAME="GGraticule" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GLabelRenderer.pas" FORMNAME="" UNITNAME="GLabelRenderer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GLayerTreeView.pas" FORMNAME="" UNITNAME="GLayerTreeView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\Globe5.pas" FORMNAME="" UNITNAME="Globe5" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\Globe5.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\Globe5Projections.pas" FORMNAME="" UNITNAME="Globe5Projections" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\Globe5Utils.pas" FORMNAME="" UNITNAME="Globe5Utils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GLogging.pas" FORMNAME="" UNITNAME="GLogging" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GLR5Reader.pas" FORMNAME="" UNITNAME="GLR5Reader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GLR5Writer.pas" FORMNAME="" UNITNAME="GLR5Writer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GLYRReader.pas" FORMNAME="" UNITNAME="GLYRReader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GLYRWriter.pas" FORMNAME="" UNITNAME="GLYRWriter" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GMapObjectEditors.pas" FORMNAME="" UNITNAME="GMapObjectEditors" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GMapObjects.pas" FORMNAME="" UNITNAME="GMapObjects" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GMemObjectSource.pas" FORMNAME="" UNITNAME="GMemObjectSource" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GMIFReader.pas" FORMNAME="" UNITNAME="GMIFReader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GMorphing.pas" FORMNAME="" UNITNAME="GMorphing" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GPresenters.pas" FORMNAME="" UNITNAME="GPresenters" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GProjections.pas" FORMNAME="" UNITNAME="GProjections" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GRenderer.pas" FORMNAME="" UNITNAME="GRenderer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GResource.pas" FORMNAME="" UNITNAME="GResource" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GRoadPresenter.pas" FORMNAME="" UNITNAME="GRoadPresenter" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBBTree.pas" FORMNAME="" UNITNAME="GSDBBTree" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBCache.pas" FORMNAME="" UNITNAME="GSDBCache" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBCrypt.pas" FORMNAME="" UNITNAME="GSDBCrypt" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBDataLink.pas" FORMNAME="" UNITNAME="GSDBDataLink" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBIndex.pas" FORMNAME="" UNITNAME="GSDBIndex" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBKeyIndex.pas" FORMNAME="" UNITNAME="GSDBKeyIndex" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBLayers.pas" FORMNAME="" UNITNAME="GSDBLayers" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBObjectSource.pas" FORMNAME="" UNITNAME="GSDBObjectSource" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBRtree.pas" FORMNAME="" UNITNAME="GSDBRtree" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSDBTables.pas" FORMNAME="" UNITNAME="GSDBTables" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSHPReader.pas" FORMNAME="" UNITNAME="GSHPReader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSmoothPolyPresenter.pas" FORMNAME="" UNITNAME="GSmoothPolyPresenter" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSpatialDatabase.pas" FORMNAME="" UNITNAME="GSpatialDatabase" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSpatialDatabase.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GSysUtils.pas" FORMNAME="" UNITNAME="GSysUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GTextReader.pas" FORMNAME="" UNITNAME="GTextReader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Source\GWindBarbPresenter.pas" FORMNAME="" UNITNAME="GWindBarbPresenter" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\designide.bpi" FORMNAME="" UNITNAME="designide" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Lib\bcbsmp.bpi" FORMNAME="" UNITNAME="bcbsmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2057
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Projects\Bpl\TGlobe5_CB6.bpl=TGlobe5_CB6
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=..\Source;.;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=..\Source;.;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=..\Packages
+Item1=..
+Item2=..\
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>
